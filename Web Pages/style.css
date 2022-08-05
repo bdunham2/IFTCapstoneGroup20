@@ -1,0 +1,424 @@
+html, body{
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    margin: 0;
+    font-family: Verdana;
+}
+.nav{
+    background-color: #333333;
+    margin-top: 0px;
+    float: left;   
+    width: 100%; 
+    font-size: medium;
+	text-align: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 0px;
+    padding: 14px 16px;
+}
+.login {
+    float: right;
+    padding: 14px 16px;
+	text-align: right;
+	position: absolute;
+    top: 19px; right: 0px;
+	
+}
+.login a:hover{
+    background-color: #eae4e4;
+}
+
+
+.menu a:hover{
+    background-color: #eae4e4;
+}
+.menu{
+    float: center;
+    padding: 14px 16px;
+	text-align: center;
+}
+
+.logo{
+    float: left;
+    padding: 14px 16px;
+}
+.active{
+    background-color: #cc9900;
+}
+.contact{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    font-size: large;
+    color: white;
+}
+
+.maincontent{
+    float: center;
+    width: 100%;
+    margin-top: 30px;
+	margin-left: -100px;
+    font-size: large;
+    color: white;
+}
+.label {
+float: center;
+width: 10em;
+margin-right: 1em;
+}
+.contact-box{
+    float: left;
+    width: 100%;
+    background-color: #4c7397;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.contact .box {
+    width: 50%;
+    margin-left: 530px;
+   
+}
+.contact h1{
+    text-align: center;
+	margin-right: 260px;
+	
+}
+.contact p{
+    text-align: center;
+}
+.contact form{
+    padding: 0px 30px 20px 30px;
+}
+.error {
+    color: #cc0000;
+	font-size: 16px;
+	font-weight: bold;
+    margin-right: 300px;
+  }
+input{
+    width: 60%;
+    padding: 10px 0px 10px 0px;
+}
+
+.form-control{
+    margin-top: 10px;
+}
+textarea{
+    width: 100%;
+    height: 50px;
+}
+.contact button{
+    margin-top: 10px;
+    background-color: #adcce9;
+    border: none;
+    border-radius: 2px;
+    padding: 18px 30px;
+    color: black;
+    font-size: unset;
+    width: 20%;
+	height: 10%;
+}
+.contact button:hover{
+    background-color: #eae4e4;
+    cursor: pointer;
+}
+
+.joinbutton {
+	background-color:#333333;
+	border-radius:28px;
+	border:1px solid #333333;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:26px;
+	padding:20px 42px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+	margin-left: 150px;
+	
+}
+.joinbutton:hover {
+	background-color:#eae4e4;
+}
+.joinbutton:active {
+	top:1px;
+	margin-right: 500px;
+}
+
+        
+.content{
+    background: #333333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 100vh;
+}
+.call-to-action{
+    margin-top: 200px !important;
+    width: 50%;
+    margin: auto;
+}
+.call-to-action p {
+    font-size: 30px;
+}
+.call-to-action > p{
+    text-align: center;
+}
+.call-to-action a{
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    background: #cc9900;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.call-to-action button:hover{
+    background-color: #cc9900;
+    cursor: pointer;
+}
+.history-content{
+    float: left;
+}
+.history-content h1{
+    text-align: center;
+}
+.history-container{
+    width: 90%;
+    margin: auto;
+}
+.hist{
+    width: 48%;
+    text-align: justify;
+    float: left;
+}
+.image{
+    width: 48%;
+    float: right;
+}
+.image img{
+    width: 100%;
+}
+.hist1{
+    width: 48%;
+    text-align: justify;
+    float: right;
+}
+.image1{
+    width: 48%;
+    float: left;
+}
+.image1 img{
+    width: 100%;
+}
+.tbl{
+    width: 100%;
+    float: left;
+}
+.tbl img{
+    width: 100%;
+}
+.forsell{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.tbl td{
+    padding: 5px;
+}
+.forsell-btn{
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.products table{
+    width: 100%;
+}
+.products img{
+    width: 100%;
+}
+.products table td{
+    padding: 20px;
+}
+.favorites{
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+}
+.favorites:hover{
+    background-color: #eae4e4;
+    cursor: pointer;
+}
+.gallery{
+ 
+    width: 100%;
+    display: flex;
+}
+.row1{
+    width: 90%;
+    margin: auto;
+}
+.gallery img{
+    width: 100%;
+}
+.header h1{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.gallery table{
+    width: 90%;
+    margin: auto;
+}
+.modal{
+    
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    background-color: rgba(29, 178, 233, 0.4);
+    z-index: 1;
+}
+.mod-content{
+    margin-top: 100px !important;
+    width: 60%;
+    margin: auto;
+    background-color: rgb(246, 21, 21);
+    
+}
+.modal form{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.modal .close{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    margin-top: 5px !important;
+    width: 100%;
+    text-align: right;
+}
+
+.modal .close:hover{
+    cursor: pointer;
+}
+.modal .header{
+    background-color: #333333;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding: 10px;
+    color: rgb(252, 8, 8);
+}
+.modal p{
+    text-align: center;
+}
+.modal-input{
+    padding-top: 20px;
+}
+.modal button{
+    margin: 0px 0px 20px 20px;
+    background-color: #eae4e4;
+    border: none;
+    padding: 12px 24px;
+    font-size: unset;
+    color: white;
+}
+.modal button:hover{
+    cursor: pointer;
+}
+.fest-content{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+} 
+.fest-content .cont{
+    width: 60%;
+    margin: auto;
+}
+.fest-content img{
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+.footer{
+    margin-top: 0px;
+    margin-left: 33px;
+    background-color: #333333;
+	padding: 14px 16px;
+    width: 100%;
+    color: white;
+    text-align: center;
+	
+}
+.modal{
+    
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+.mod-content{
+    margin-top: 100px !important;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    
+}
+.modal form{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.modal .close{
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    margin-top: 5px !important;
+    width: 100%;
+    text-align: right;
+}
+
+.modal .close:hover{
+    cursor: pointer;
+}
+.modal .header{
+    background-color: #009999;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding: 10px;
+    color: white;
+}
+.modal p{
+    text-align: center;
+}
+.modal-input{
+    padding-top: 20px;
+}
+.modal button{
+    margin: 0px 0px 20px 20px;
+    background-color: #009900;
+    border: none;
+    padding: 12px 24px;
+    font-size: unset;
+    color: white;
+}
+.modal button:hover{
+    cursor: pointer;
+}
+
